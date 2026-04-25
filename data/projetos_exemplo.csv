@@ -1,0 +1,6 @@
+projeto,area,status,progresso_pct,risco,prazo_dias,custo_planejado_kbrl,custo_real_kbrl,beneficio_estimado_kbrl
+Implantacao PMO,Governanca,em andamento,65,medio,90,180,140,520
+Plataforma DPP,Produto Digital,em andamento,42,alto,150,680,310,1200
+Capacitacao Captacao Recursos,Inovacao,concluido,100,baixo,45,60,58,300
+Dashboard Executivo,Dados,em andamento,70,medio,60,120,96,450
+Automacao Documental,IA,planejado,15,alto,120,260,40,700
