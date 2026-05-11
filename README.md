@@ -46,13 +46,6 @@ src/        futuras funcoes de ETL e tratamento de dados
 - Base para dashboard executivo
 - Aprendizado sobre governanca, priorizacao e acompanhamento de entregas
 
-## Proximos Passos
-
-- Adicionar graficos e visualizacoes.
-- Criar indicadores de atraso, risco composto e saude do projeto.
-- Publicar versao em Streamlit.
-- Criar template de Power BI.
-
 ## Autor
 
 Rodrigo Willemann  
