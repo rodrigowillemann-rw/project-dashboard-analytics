@@ -39,14 +39,36 @@ docs/       modelo de indicadores e regras de leitura
 src/        futuras funcoes de ETL e tratamento de dados
 ```
 
-## Resultados e Aprendizados Esperados
+## Como Executar
+
+```sh
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook notebooks/project-kpi-demo.ipynb
+```
+
+## Resultados e Aprendizados
 
 - Visao consolidada de projetos e portfolios
 - Indicadores de risco e desempenho
 - Base para dashboard executivo
 - Aprendizado sobre governanca, priorizacao e acompanhamento de entregas
 
+## Resultado Demonstrativo
+
+Com os dados sinteticos em `data/projetos_exemplo.csv`, o notebook calcula desvio de custo e indice beneficio-custo para uma carteira de projetos.
+
+| Projeto | Risco | Desvio de custo (kBRL) | Beneficio/Custo |
+| --- | --- | ---: | ---: |
+| Implantacao PMO | medio | -40 | 2,89 |
+| Plataforma DPP | alto | -370 | 1,76 |
+| Capacitacao Captacao Recursos | baixo | -2 | 5,00 |
+| Dashboard Executivo | medio | -24 | 3,75 |
+| Automacao Documental | alto | -220 | 2,69 |
+
 ## Autor
 
 Rodrigo Willemann  
 Email: rodrigo.willemann@gmail.com
+
